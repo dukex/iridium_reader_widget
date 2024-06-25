@@ -1,0 +1,15 @@
+name: mno_streamer
+version: 0.1.1
+description: Streamer API and multiple file parsers (PDF, CBZ, Epub) for Dart.
+homepage: https://github.com/Mantano/mno_streamer_dart
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  mno_commons: ^0.1.0
+  mno_shared: ^0.1.0
+dev_dependencies:
+  lints: ^1.0.1
+  test: ^1.20.1

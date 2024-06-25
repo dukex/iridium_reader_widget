@@ -1,0 +1,17 @@
+name: iridium_reader_widget
+
+packages:
+  - packages/**
+
+ignore:
+  - "packages/**/example"
+
+ide:
+  intellij:
+    enabled: false
+
+scripts:
+  analyze:
+    exec: flutter analyze .
+  test:
+    exec: flutter test

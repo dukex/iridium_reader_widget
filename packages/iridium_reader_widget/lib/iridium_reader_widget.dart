@@ -1,0 +1,1 @@
+library iridium_reader_widget;
