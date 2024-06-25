@@ -1,4 +1,4 @@
-name: iridium_monorepo
+name: iridium_reader_widget
 description: Plug and play ebook reader widget
 version: 0.0.1
 homepage: https://dart.dev/tools/pub/pubspec
@@ -10,9 +10,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-dependency_overrides:
-  platform: ^3.1.0
+  flutter_bloc: ^8.1.6
+  mno_commons:
+    path: packages/mno_commons
+  mno_navigator:
+    path: packages/mno_navigator_flutter
+  mno_opds:
+    path: packages/mno_opds
+  mno_server:
+    path: packages/mno_server
+  mno_shared:
+    path: packages/mno_shared
+  mno_streamer:
+    path: packages/mno_streamer
 
 dev_dependencies:
   flutter_lints: ^4.0.0

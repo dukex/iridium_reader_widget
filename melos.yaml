@@ -2,6 +2,7 @@ name: iridium_reader_widget
 
 packages:
   - packages/**
+  - ./
 
 ignore:
   - "packages/**/example"
